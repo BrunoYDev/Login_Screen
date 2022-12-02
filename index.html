@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Login Screen</title>
 </head>
+
 <body>
     <main>
         <div class="container">
@@ -17,28 +19,34 @@
             </div>
             <div class="common right">
                 <form>
-                    <h2>Member Login</h2>
-                    
-                    <div class="inputContainer">
-                        <label hidden for="email">E-mail</label>
-                        <input class="imginp" required type="email" name="email" id="email" placeholder="E-Mail">
-                    </div>
+                    <div class="prenc"></div>
+                    <div class="mainML">
+                        <h2>Member Login</h2>
 
-                    <div class="inputContainer">
-                        <label hidden for="password">password</label>
-                        <input class="imginp" required type="password" name="password" id="password" placeholder="Password">
-                    </div>
+                        <div class="inputContainer">
+                            <label hidden for="email">E-mail</label>
+                            <input class="imginp" required type="email" name="email" id="email" autocomplete="email" placeholder="E-Mail">
+                        </div>
 
-                    <div class="inputContainer">
-                        <label hidden for="submit">Submit</label>
-                        <input type="submit" name="submit" value="LOGIN">
-                    </div>
+                        <div class="inputContainer">
+                            <label hidden for="password">password</label>
+                            <input class="imginp" required type="password" name="password" id="password"
+                                placeholder="Password">
+                        </div>
 
-                    <p class="first">Forgot <a href="#">Username/Password</a></p>
-                    <p class="second"><a href="#">Create your account</a></p>
+                        <div class="inputContainer">
+                            <label hidden for="submit">Submit</label>
+                            <input type="submit" name="submit" value="LOGIN">
+                        </div>
+                    </div>
+                    <div class="forgnew">
+                        <p class="first">Forgot <a href="#">Username/Password</a></p>
+                        <p class="second"><a href="#">Create your account</a></p>
+                    </div>
                 </form>
             </div>
         </div>
     </main>
 </body>
+
 </html>
