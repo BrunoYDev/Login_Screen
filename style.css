@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(-135deg,#c850c0,#4158d0);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    min-height: 97vh;
+    background-color: white;
+    min-width: 960px;
+    height: 520px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .common {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .left {
+    flex-basis: 45%;
+}
+
+.container .left figure {
+    
+}
+
+.container .left figure img {
+    width: 240px;
+}
+
+.container .right {
+    flex-basis: 45%;
+}
+
+.container .right form{
+    
+}
+
+.container .right form h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.container .right form .inputContainer {
+    
+}
+
+.container .right form .inputContainer label{
+    
+}
+
+.container .right form .inputContainer img{
+    width: 15px;
+    /* margin-right: 5px; */
+    /* margin-top: 15px; */
+}
+
+.container .right form .inputContainer input{
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: #E6E6E6;
+    border: none;
+}
+
+.container .right form .inputContainer input::placeholder{
+    padding: 5px 10px;
+}
+
+.container .right form .inputContainer input[type=submit]{
+    background-color: #57B846;
+    height: 40px;
+    width: 200px;
+    border-radius: 200px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.container .right .first{
+    font-size: 12px;
+    text-align: center;
+}
+
+.container .right .first a {
+    text-decoration: none;
+}
+
+.container .right .second {
+    font-size: 12px;
+    text-align: center;
+}
+
+.container .right .second a {
+    text-decoration: none;
+}
+    
+.container .right form .inputContainer input[type=submit]:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #5e5b5b;
+    transition: 0.5s;
+}
